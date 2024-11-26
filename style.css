@@ -619,7 +619,7 @@ del {
 .fith-page-div {
     height:39em;
     width: 100%;
-    background: linear-gradient(to top, rgb(248, 226, 226),rgba(255, 239, 239, 0.596) 100%),url(asserts/contact-bg.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.596) 100%),url(asserts/contact-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
