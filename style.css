@@ -82,6 +82,7 @@ body {
     font-size: var(--menu-font-size);
     font-weight: var(--font-weight-normal);
 }
+
 .nav-item .nav-link:hover {
     color: var(--primary-color);
 }
@@ -117,7 +118,7 @@ body {
 
 /* NAV COMPLETED */
 
-.bg-video-container{
+.bg-video-container {
     position: relative;
     height: 100vh;
 }
@@ -139,7 +140,7 @@ body {
 
 }
 
-.bg-video-content{
+.bg-video-content {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -184,7 +185,7 @@ body {
 
 .second-page-div {
     background-color: white;
-    height: 150vh;
+    margin-bottom: 10em;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -197,7 +198,6 @@ body {
     text-align: center;
     font-weight: var(--font-weight-bold);
     font-size: var(--h2-font-size);
-
 }
 
 /* SECIND PAGE DIV 2 */
@@ -280,6 +280,388 @@ del {
 
 .third-page-div {
     width: 100%;
-    height: 70vh;
-    background-color: transparent;
+    height: 500px;
+    background-image: url(asserts/background.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* THIRD PAGE COMPLETED */
+
+
+/* FOURTH PAGE START */
+
+.fourth-page-div {
+    background-color: white;
+    margin-bottom: 10em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth-page-div-heading {
+    color: #000000;
+    padding: 5rem 0rem 3rem 0rem;
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--h2-font-size);
+}
+
+.fourth-page-div-items {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+
+.fourth-page-div-items-item1{
+    position: relative;
+    margin: 2em 0em 0em 2em;
+    width: 33em;
+    height: 22em;
+    overflow: hidden;
+}
+
+.fourth-page-div-items-item1 img {
+    width:100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+    transition: all 0.2s ease-in;
+}
+
+
+.fourth-page-div-items-item1 img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+
+.fourth-page-div-items-item1 ul{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    position: absolute;
+    width: 28em;
+    left: 1.5rem;
+    bottom: 5rem;
+}
+
+.fourth-page-div-items-item1 ul li{
+    list-style: none;
+}
+
+
+.fourth-page-div-items-item1 ul li button{
+    padding: 4px 12px;
+    border-radius: 0.25rem;
+    color: var(--white-color);
+    background-color:  rgb(220, 53, 69);
+    margin-bottom: 5px;
+    border: none;
+    font-size: 14px;
+    z-index: 1;
+    box-shadow: 2px 2px 10px black;
+    position: absolute;
+}
+
+
+.fourth-page-div-items-item1 ul li p{
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--h5-font-size);
+    position: absolute;
+    color: var(--white-color);
+    text-shadow: 2px 2px 8px #000000;
+}
+
+
+
+/* FOURTH DIV ITEMS ITEM 1 COMPLETE */
+
+
+/* FOURTH DIV ITEMS ITEM 2 START */
+
+
+.fourth-page-div-items-item2{
+    margin: 2em 0em 0em 2em;
+    width: 33em;
+    height: 22em;
+    position: relative;
+    overflow: hidden;
+}
+
+.fourth-page-div-items-item2 img {
+    width:100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: all 0.2s ease-in;
+}
+
+.fourth-page-div-items-item2 img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.fourth-page-div-items-item2 ul{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    position: absolute;
+    width: 27em;
+    left: 1.5rem;
+    bottom: 4rem;
+}
+
+.fourth-page-div-items-item2 ul li{
+    list-style: none;
+}
+
+
+.fourth-page-div-items-item2 ul li button{
+    padding: 4px 12px;
+    border-radius: 0.25rem;
+    color: var(--white-color);
+    background-color:  rgb(220, 53, 69);
+    margin-bottom: 5px;
+    border: none;
+    font-size: 14px;
+    z-index: 1;
+    box-shadow: 2px 2px 10px black;
+    position: absolute;
+}
+
+
+.fourth-page-div-items-item2 ul li p{
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--h5-font-size);
+    position: absolute;
+    color: var(--white-color);
+    text-shadow: 2px 2px 8px #000000;
+}
+
+/* FOURTH DIV ITEMS ITEM 2 COMPLETE */
+
+
+/* FOURTH DIV ITEMS ITEM 3 START */
+
+.fourth-page-div-items-item3 {
+    display: flex;
+    /* justify-content: space-around; */
+    height: 25em;
+    flex-direction: column;
+}
+
+
+.fourth-page-div-items-item3 .img-div{
+    margin: 2em 0em 0em 2em;
+    width: 21.3em;
+    height: 13em;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fourth-page-div-items-item3 .img-div img {
+    width:100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: all 0.2s ease-in;
+}
+
+.fourth-page-div-items-item3 .img-div img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20em;
+    margin: 1em 0em 0em 3rem;
+}
+
+.details div {
+    padding: 1px;
+}
+
+.date {
+    margin: 8px 15px;
+    font-size: 20px;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+.commentment {
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+}
+
+.fourth-page-div-items-item3  button {
+    border: none;
+    background-color: #76daf8;
+    margin-bottom: 0.4rem;
+    color: #FFFFFF;
+    padding: 4px 12px;
+    border-radius: 0.25rem;
+}
+
+/* FOURTH DIV ITEMS ITEM 3 COMPLETE */
+
+
+/* FOURTH DIV ITEMS ITEM 4 START */
+
+.fourth-page-div-items-item4 {
+    display: flex;
+    /* justify-content: space-around; */
+    height: 25em;
+    flex-direction: column;
+}
+
+.fourth-page-div-items-item4 .img-div{
+    margin: 2em 0em 0em 2em;
+    width: 21.3em;
+    height: 13em;
+    position: relative;
+    overflow: hidden;
+}
+
+.fourth-page-div-items-item4 .img-div img {
+    width:100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: all 0.2s ease-in;
+}
+
+.fourth-page-div-items-item4 .img-div img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+
+.fourth-page-div-items-item4  button {
+    border: none;
+    background-color: #171818;
+    color: #FFFFFF;
+    margin-bottom: 0.4rem;
+    padding: 4px 12px;
+    border-radius: 0.25rem;
+}
+
+
+/* FOURTH DIV ITEMS ITEM 4 COMPLETE */
+
+
+/* FOURTH DIV ITEMS ITEM 5 START */
+
+
+.fourth-page-div-items-item5 {
+    display: flex;
+    /* justify-content: space-evenly; */
+    height: 25em;
+    flex-direction: column;
+}
+
+.fourth-page-div-items-item5 .img-div{
+    margin: 2em 0em 0em 2em;
+    width: 21.3em;
+    height: 13em;
+    position: relative;
+    overflow: hidden;
+}
+
+.fourth-page-div-items-item5 .img-div img {
+    width:100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: all 0.2s ease-in;
+}
+
+.fourth-page-div-items-item5 .img-div img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+
+.fourth-page-div-items-item5  button {
+    border: none;
+    background-color: #76daf8;
+    color: #FFFFFF;
+    padding: 4px 12px;
+    margin-bottom: 0.4rem;
+    border-radius: 0.25rem;
+}
+
+
+/* FOURTH DIV COMPLETE */
+
+
+/* FIFTH DIV START */
+
+
+.fith-page-div {
+    height:39em;
+    width: 100%;
+    background: linear-gradient(to top, rgb(248, 226, 226),rgba(255, 239, 239, 0.596) 100%),url(asserts/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    color: #ffffff;
+}
+
+.fith-page-div-item1 p {
+    margin-left: 6%;
+    font-weight: 600;
+    font: 600 35px  sans-serif;
+}
+
+.fith-page-div-item2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.fith-page-div-item2-items {
+    border: 1px solid black;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.fith-page-div-item2-h1 {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 0px 0px 5px 0px;
+}
+
+.fith-page-div-item2-p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0px 0px 5px 0px;
 }
